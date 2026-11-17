@@ -1,0 +1,41 @@
+# Plano de Implementação: Site para Escritório de Advocacia
+
+Este documento detalha a arquitetura, o design e o plano de verificação para o site moderno e elegante do escritório de advocacia, utilizando as cores azul escuro, cinza e branco.
+
+## User Review Required
+
+Nenhuma revisão detalhada é estritamente necessária, pois o escopo é claro e direto. O site usará HTML5, CSS3 (Vanilla) e JavaScript puro para garantir leveza e controle total sobre o design moderno (animações suaves, tipografia refinada e layout limpo). 
+
+## Proposed Changes
+
+### Frontend (Desktop & Mobile)
+
+#### [NEW] [index.html](file:///c:/Users/User/Desktop/Site/index.html)
+A estrutura semântica da página (Single Page Application - Landing Page).
+- **Header:** Logotipo tipográfico elegante e navegação responsiva.
+- **Hero Section:** Banner de impacto com mensagem sobre excelência jurídica e um Call-to-Action (CTA).
+- **Áreas de Atuação (Practice Areas):** Grid exibindo áreas de especialidade (Direito Civil, Empresarial, etc.) com ícones elegantes ou tipografia moderna.
+- **Sobre Nós:** Seção apresentando os valores do escritório (Ética, Confiança, Resultados).
+- **Contato:** Seção com formulário simples e dados (endereço fictício/telefone).
+- **Footer:** Rodapé escuro com copyright.
+
+#### [NEW] [styles.css](file:///c:/Users/User/Desktop/Site/styles.css)
+Design System e estilização completa.
+**Cores (CSS Variables):**
+- `--primary-color`: `#0B1B3D` ou `#1A365D` (Azul Escuro Naval).
+- `--secondary-color`: `#A0AEC0` e `#4A5568` (Cinza para textos de apoio e bordas).
+- `--bg-color`: `#FFFFFF` e `#F7FAFC` (Branco e off-white para contraste).
+**Tipografia:** "Playfair Display" (serifada clássica para títulos) e "Inter" (sem serifa moderna para o corpo do texto).
+**Aspectos Modernos:** Efeitos de hover suaves, glassmorphism discreto no header ao rolar (scroll), e transições de fade-in.
+
+#### [NEW] [script.js](file:///c:/Users/User/Desktop/Site/script.js)
+Script de interatividade.
+- Scroll suave ao clicar nos links do menu.
+- Navbar que muda de estilo (fundo sólido, sombra) ao rolar a página.
+- Intersect Observer para animar elementos sutilmente conforme aparecem na tela (fade-in up).
+
+## Verification Plan
+
+### Manual Verification
+- O site será aberto no navegador preferido pelo usuário (via arquivo local `index.html` ou usando Live Server se disponível).
+- O agente/usuário verificará se as cores batem com "Azul Escuro, Cinza e Branco", e se o layout transmite elegância e modernidade (design responsivo testado reduzindo a janela do navegador).

@@ -1,0 +1,5 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://olitavadvogados.com.br/sitemap.xml
+

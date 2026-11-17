@@ -1,0 +1,350 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="no-referrer">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b1a30">
+    <meta name="google-site-verification" content="5l_nWW4OTMzbPspwCjnG9EoGJjy8I78EKZiSFUIQ1Lw" />
+
+    <!-- SEO dinâmico (atualizado via JS) -->
+    <title id="page-title">Notícia | Oliveira &amp; Tavares Advogados</title>
+    <meta name="description" id="page-desc" content="Leia a notícia completa no site Oliveira &amp; Tavares Advogados.">
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+    <link rel="canonical" href="https://olitavadvogados.com.br/noticia.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" id="og-title" content="Notícia | Oliveira &amp; Tavares Advogados">
+    <meta property="og:description" id="og-desc" content="">
+    <meta property="og:url" content="https://olitavadvogados.com.br/noticia.html">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Oliveira &amp; Tavares Advogados">
+    <meta property="og:image" id="og-image" content="https://olitavadvogados.com.br/logo.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .noticia-hero {
+            height: 420px;
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .noticia-hero::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(to bottom, rgba(11,26,48,0.3) 0%, rgba(11,26,48,0.9) 100%);
+        }
+
+        .noticia-hero-content {
+            position: relative;
+            z-index: 1;
+            padding: 2.5rem 0;
+            width: 100%;
+        }
+
+        .noticia-hero-content h1 {
+            color: #fff;
+            font-size: clamp(1.5rem, 3vw, 2.4rem);
+            max-width: 820px;
+            line-height: 1.3;
+            margin-bottom: 1rem;
+        }
+
+        .news-meta {
+            color: rgba(255,255,255,0.75);
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.2rem;
+        }
+
+        .news-meta i { color: var(--accent-color); margin-right: 0.3rem; }
+
+        .noticia-body {
+            max-width: 820px;
+            margin: 0 auto;
+            font-size: 1.08rem;
+            line-height: 1.85;
+            color: var(--text-main);
+        }
+
+        .noticia-body p { margin-bottom: 1.4rem; }
+
+        .noticia-featured-image {
+            width: 100%;
+            max-height: 480px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 0.8rem;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            display: block;
+        }
+
+        .noticia-figure {
+            margin: 0 0 2.5rem 0;
+            display: block;
+            width: 100%;
+        }
+
+        .noticia-caption {
+            display: block;
+            font-size: 0.88rem;
+            color: var(--secondary-color);
+            margin-top: 0.6rem;
+            margin-bottom: 0;
+            text-align: center;
+            font-style: italic;
+            line-height: 1.4;
+        }
+
+        .noticia-body h3 {
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            font-size: 1.45rem;
+            color: var(--primary-color);
+        }
+
+        .fonte-box {
+            margin-top: 3rem;
+            padding: 1.2rem 1.5rem;
+            border-left: 4px solid var(--accent-color);
+            background: var(--bg-alt);
+            border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+        }
+
+        .fonte-box a {
+            color: var(--accent-color);
+            font-weight: 600;
+            word-break: break-all;
+        }
+
+        .fonte-box a:hover { text-decoration: underline; }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 2.5rem;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover { color: var(--accent-color); }
+
+        #noticia-loading {
+            text-align: center;
+            padding: 5rem 1rem;
+            color: var(--secondary-color);
+            font-size: 1.1rem;
+        }
+
+        #noticia-not-found {
+            text-align: center;
+            padding: 5rem 1rem;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar scrolled" id="navbar" aria-label="Navegação principal">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <img src="logo.png" alt="Oliveira &amp; Tavares Advogados" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html#home">Início</a></li>
+                <li><a href="index.html#about">Sobre o Escritório</a></li>
+                <li><a href="index.html#areas">Áreas de Atuação</a></li>
+                <li><a href="index.html#noticias">Notícias</a></li>
+                <li><a href="https://www.instagram.com/oliveira.tavares.adv?igsh=MTIzMGR6aWZ0aGdjMw%3D%3D&utm_source=qr"
+                        target="_blank" rel="noopener noreferrer">Nossas Redes Sociais</a></li>
+            </ul>
+            <a href="index.html#contact" class="btn btn-primary nav-btn">Fale Conosco</a>
+            <button class="hamburger" aria-label="Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Breadcrumb -->
+        <nav class="breadcrumb" aria-label="Breadcrumb" style="margin-top:70px;">
+            <div class="container">
+                <ol class="breadcrumb-list">
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="todas-noticias.html">Notícias</a></li>
+                    <li aria-current="page" id="breadcrumb-titulo">Carregando...</li>
+                </ol>
+            </div>
+        </nav>
+
+        <!-- Hero com imagem da notícia -->
+        <div class="noticia-hero" id="noticia-hero" style="background-image: url('https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=1200'); margin-top: 0;">
+            <div class="container noticia-hero-content">
+                <h1 id="noticia-titulo">Carregando notícia...</h1>
+                <div class="news-meta">
+                    <span id="noticia-data"><i class="fa-regular fa-calendar"></i> —</span>
+                    <span><i class="fa-regular fa-newspaper"></i> <span id="noticia-fonte-nome">Senado Federal</span></span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Corpo da notícia -->
+        <section class="py-section">
+            <div class="container">
+                <div id="noticia-loading">
+                    <i class="fa-solid fa-spinner fa-spin fa-2x"></i><br><br>Carregando notícia...
+                </div>
+                <div id="noticia-not-found">
+                    <i class="fa-solid fa-circle-exclamation fa-3x" style="color:var(--accent-color)"></i>
+                    <h2 style="margin-top:1rem;">Notícia não encontrada</h2>
+                    <p>A notícia que você buscou não existe ou foi removida.</p>
+                    <a href="todas-noticias.html" class="btn btn-primary" style="margin-top:1.5rem;">Ver todas as notícias</a>
+                </div>
+                <article class="noticia-body" id="noticia-conteudo" style="display:none;">
+                    <!-- conteúdo inserido via JS -->
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo text-white">
+                    <img src="logo.png" alt="Oliveira &amp; Tavares Advogados" class="logo-img footer-logo">
+                </a>
+                <p class="mt-3 text-gray">Excelência jurídica com foco em resultados concretos e segurança para nossos
+                    clientes desde 2012.</p>
+            </div>
+            <div class="footer-links">
+                <h3>Links Rápidos</h3>
+                <ul>
+                    <li><a href="index.html#home">Início</a></li>
+                    <li><a href="index.html#about">Sobre o Escritório</a></li>
+                    <li><a href="index.html#areas">Áreas de Atuação</a></li>
+                    <li><a href="index.html#noticias">Notícias</a></li>
+                    <li><a href="index.html#contact">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Oliveira &amp; Tavares Advogados. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+    // Carrega a notícia pelo ?id= na URL
+    (function () {
+        const params = new URLSearchParams(window.location.search);
+        const id = params.get('id');
+
+        if (!id) {
+            document.getElementById('noticia-loading').style.display = 'none';
+            document.getElementById('noticia-not-found').style.display = 'block';
+            return;
+        }
+
+        fetch('noticias.json')
+            .then(r => r.json())
+            .then(noticias => {
+                const noticia = noticias.find(n => n.id === id);
+                if (!noticia) {
+                    document.getElementById('noticia-loading').style.display = 'none';
+                    document.getElementById('noticia-not-found').style.display = 'block';
+                    return;
+                }
+
+                // Atualiza SEO
+                document.getElementById('page-title').textContent = noticia.title + ' | Oliveira & Tavares Advogados';
+                document.getElementById('page-desc').content = noticia.summary;
+                document.getElementById('og-title').content = noticia.title;
+                document.getElementById('og-desc').content = noticia.summary;
+                document.getElementById('og-image').content = noticia.image;
+
+                // Atualiza hero
+                document.getElementById('noticia-hero').style.backgroundImage = "url('" + noticia.image + "')";
+                document.getElementById('noticia-titulo').textContent = noticia.title;
+                document.getElementById('breadcrumb-titulo').textContent = noticia.title.substring(0, 50) + (noticia.title.length > 50 ? '...' : '');
+
+                // Data formatada
+                if (noticia.data) {
+                    const d = new Date(noticia.data);
+                    const opts = { day: '2-digit', month: 'long', year: 'numeric' };
+                    document.getElementById('noticia-data').innerHTML =
+                        '<i class="fa-regular fa-calendar"></i> ' + d.toLocaleDateString('pt-BR', opts);
+                }
+
+                // Fonte
+                if (noticia.fonte) {
+                    document.getElementById('noticia-fonte-nome').textContent = noticia.fonte;
+                }
+
+                // Conteúdo principal com imagem destacada da matéria (incluindo legenda e crédito oficiais)
+                let imagemHtml = '';
+                if (noticia.image) {
+                    let captionHtml = '';
+                    if (noticia.legenda || noticia.credito) {
+                        const parts = [];
+                        if (noticia.legenda) parts.push(noticia.legenda);
+                        if (noticia.credito) parts.push(`<strong>Foto:</strong> ${noticia.credito}`);
+                        captionHtml = `<figcaption class="noticia-caption">${parts.join(' | ')}</figcaption>`;
+                    }
+                    imagemHtml = `<figure class="noticia-figure"><img src="${noticia.image}" alt="${noticia.title}" class="noticia-featured-image">${captionHtml}</figure>`;
+                }
+
+                const conteudo = noticia.conteudo && noticia.conteudo.trim()
+                    ? noticia.conteudo
+                    : '<p>' + noticia.summary + '</p>';
+
+                // Box de fonte/crédito
+                const fonteHtml = `
+                    <div class="fonte-box">
+                        <i class="fa-solid fa-link"></i>
+                        <strong>Fonte:</strong>
+                        <a href="${noticia.link || noticia.fonte_url || '#'}" target="_blank" rel="noopener noreferrer">
+                            ${noticia.fonte_url || noticia.link || '#'}
+                        </a>
+                        — ${noticia.fonte || 'Senado Federal'}
+                    </div>`;
+
+                const backLink = `<a href="todas-noticias.html" class="back-link"><i class="fa-solid fa-arrow-left"></i> Voltar para Notícias</a>`;
+
+                document.getElementById('noticia-conteudo').innerHTML = imagemHtml + conteudo + fonteHtml + backLink;
+
+                // Exibe
+                document.getElementById('noticia-loading').style.display = 'none';
+                document.getElementById('noticia-conteudo').style.display = 'block';
+            })
+            .catch(() => {
+                document.getElementById('noticia-loading').style.display = 'none';
+                document.getElementById('noticia-not-found').style.display = 'block';
+            });
+    })();
+    </script>
+</body>
+
+</html>
