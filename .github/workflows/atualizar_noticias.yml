@@ -1,0 +1,38 @@
+name: Atualizar Notícias do Senado
+
+on:
+  schedule:
+    # 21:00 UTC = 18:00 Horário de Brasília (UTC-3) todos os dias
+    - cron: '0 21 * * *'
+  workflow_dispatch: # Permite rodar manualmente com 1 clique se você quiser
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Baixar código do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Executar script de captura de notícias
+        run: |
+          python atualizar_noticias.py
+
+      - name: Salvar alterações no GitHub (commit e push)
+        run: |
+          git config --global user.name "Robô de Notícias"
+          git config --global user.email "bot@olitavadvogados.com.br"
+          git add noticias.json img/noticias/
+          if git diff --staged --quiet; then
+            echo "Nenhuma notícia nova para salvar hoje."
+          else
+            git commit -m "Atualização automática de notícias [skip ci]"
+            git push
+          fi
