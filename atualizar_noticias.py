@@ -29,7 +29,7 @@ def limpar_html_basico(texto):
 
 def extrair_materia_completa(url):
     """
-    Extrai com precisão cirúrgica:
+    Extrai com precisão:
     1. A imagem real e oficial da matéria (com legenda e crédito)
     2. O texto integral idêntico ao original (div id="textoMateria")
     """
@@ -37,7 +37,6 @@ def extrair_materia_completa(url):
         html = fetch(url)
 
         # 1. IMAGEM OFICIAL DA MATÉRIA
-        # Procura a tag <img class="fonteslide... ou og:image
         img_match = re.search(r'<img[^>]+class="[^"]*fonteslide[^"]*"[^>]+src="([^"]+)"', html)
         if not img_match:
             img_match = re.search(r'<meta[^>]+property="og:image"[^>]+content="([^"]+)"', html)
@@ -48,7 +47,6 @@ def extrair_materia_completa(url):
             if imagem.startswith("/"):
                 imagem = BASE_SENADO + imagem
 
-        # Legenda e crédito da foto, se houver
         legenda_match = re.search(r'<img[^>]+class="[^"]*fonteslide[^"]*"[^>]+legenda="([^"]+)"', html)
         legenda = legenda_match.group(1).strip() if legenda_match else ""
         credito_match = re.search(r'<img[^>]+class="[^"]*fonteslide[^"]*"[^>]+credito="([^"]+)"', html)
@@ -57,21 +55,16 @@ def extrair_materia_completa(url):
         # 2. TEXTO INTEGRAL DA MATÉRIA (id="textoMateria")
         texto_match = re.search(r'<div id="textoMateria">(.*?)</div>\s*<div id="boxRodapeMateria"', html, re.DOTALL)
         if not texto_match:
-            # Fallback caso a tag seguinte mude
             texto_match = re.search(r'<div id="textoMateria">(.*?)</div>', html, re.DOTALL)
 
         conteudo_puro = ""
         if texto_match:
             conteudo_puro = texto_match.group(1)
-            # Converte links relativos para absolutos do senado
             conteudo_puro = re.sub(r'href="/', f'href="{BASE_SENADO}/', conteudo_puro)
-            # Remove parágrafos vazios
             conteudo_puro = re.sub(r'<p>\s*</p>', '', conteudo_puro)
-            # Remove eventuais botões de compartilhamento
             conteudo_puro = re.sub(r'<p>[^<]*Compartilhe este conteúdo[^<]*</p>', '', conteudo_puro, flags=re.IGNORECASE)
             conteudo_puro = conteudo_puro.strip()
         else:
-            # Se não achou div específica, busca parágrafos
             paragrafos = re.findall(r"<p[^>]*>(.*?)</p>", html, re.DOTALL)
             textos_validos = []
             for p in paragrafos:
@@ -80,7 +73,6 @@ def extrair_materia_completa(url):
                     textos_validos.append(f"<p>{p_limpo}</p>")
             conteudo_puro = "".join(textos_validos)
 
-        # Fallback de imagem caso o artigo não tenha foto própria
         if not imagem:
             imagem = "https://images.unsplash.com/photo-1589829085413-56de8ae18c73?auto=format&fit=crop&q=80&w=800"
 
@@ -113,7 +105,6 @@ def buscar_noticias():
         if not titulo or not link_original:
             continue
 
-        # Apenas matérias escritas com reportagem completa
         if "/materias/" not in link_original:
             continue
 
@@ -153,20 +144,38 @@ def buscar_noticias():
 
     return noticias
 
+def carregar_existentes():
+    if not os.path.exists(NOTICIAS_JSON):
+        return []
+    try:
+        with open(NOTICIAS_JSON, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return []
+
 def salvar_noticias(noticias):
     with open(NOTICIAS_JSON, "w", encoding="utf-8") as f:
         json.dump(noticias, f, ensure_ascii=False, indent=4)
 
 def main():
     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Iniciando captura completa do Senado Federal...")
-    noticias = buscar_noticias()
-    print(f"  → {len(noticias)} matérias capturadas com sucesso.")
+    novas = buscar_noticias()
+    print(f"  → {len(novas)} matérias capturadas do Senado.")
 
-    for i, n in enumerate(noticias):
+    existentes = carregar_existentes()
+    ids_novos = {n["id"] for n in novas}
+
+    # Mantém as notícias antigas que não vieram nessa leva recente
+    antigas_mantidas = [n for n in existentes if n.get("id") not in ids_novos]
+
+    # As novas ficam no topo (mais recentes primeiro), seguidas pelas antigas (acumula até 50 notícias)
+    todas = (novas + antigas_mantidas)[:50]
+
+    for i, n in enumerate(todas):
         n["delay"] = DELAYS[i % 3]
 
-    salvar_noticias(noticias)
-    print(f"  → Arquivo noticias.json salvo com matérias integrais e fotos!")
+    salvar_noticias(todas)
+    print(f"  → Arquivo noticias.json salvo! Total acumulado no site: {len(todas)} notícias.")
 
 if __name__ == "__main__":
     main()
