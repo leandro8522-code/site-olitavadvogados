@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Grade da página inicial (mostra apenas as 3 primeiras)
     const homeGrid = document.getElementById('news-grid-home');
     if (homeGrid) {
-        fetch('noticias.json')
+        fetch(`noticias.json?v=${Date.now()}`)
             .then(r => r.json())
             .then(noticias => {
                 homeGrid.innerHTML = noticias.slice(0, 3).map(n => criarCardNoticia(n, false)).join('');
@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Grade da página todas-noticias.html (mostra todas)
     const allGrid = document.getElementById('news-grid-all');
     if (allGrid) {
-        fetch('noticias.json')
+        fetch(`noticias.json?v=${Date.now()}`)
             .then(r => r.json())
             .then(noticias => {
                 allGrid.innerHTML = noticias.map(n => criarCardNoticia(n, true)).join('');
