@@ -3,7 +3,7 @@ name: Atualizar Notícias do Senado
 on:
   schedule:
     # 09:00, 14:00, 19:00 e 22:00 (Horário de Brasília)
-    - cron: '0 1,12,17,22 * * *'
+    - cron: '17 1,12,17,22 * * *'
   workflow_dispatch:
 jobs:
   atualizar:
