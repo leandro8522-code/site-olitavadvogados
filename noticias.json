@@ -1,5 +1,19 @@
 [
     {
+        "id": "senado_estatuto-do-aprendiz-esta-na-pauta-do-plenario-nesta-terca",
+        "title": "Estatuto do Aprendiz está na pauta do Plenário nesta terça",
+        "summary": "O Plenário do Senado pode votar nesta terça-feira (24), a partir das 14h, o projeto que cria o Estatuto do Aprendiz. O PL 6.461/2019 define a aprendizagem profissional como um contrato de...",
+        "link": "https://www12.senado.leg.br/noticias/materias/2026/11/23/estatuto-do-aprendiz-esta-na-pauta-do-plenario-nesta-terca",
+        "image": "img/noticias/senado_estatuto-do-aprendiz-esta-na-pauta-do-plenario-nesta-terca.jpg",
+        "legenda": "O PL 6.461/2019 é um dos três projetos em pauta",
+        "credito": "Jonas Pereira/Agência Senado",
+        "conteudo": "<p>O Plenário do Senado pode votar nesta terça-feira (24), a partir das 14h, o projeto que cria o Estatuto do Aprendiz. O <a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/174061\" rel=\"noopener\" target=\"_blank\">PL 6.461/2019</a> define a aprendizagem profissional como um contrato de trabalho voltado à formação técnica e profissional metódica.</p>\n<p>O texto permite a contratação de jovens de 14 a 24 anos incompletos e autoriza que pessoas com deficiência sejam aprendizes sem limite máximo de idade. <span>Pela proposta, fica mantida a obrigatoriedade da cota de contratação de 5% a 15% para médias e grandes empresas, com contratos de até dois anos e possibilidade de prorrogação por mais um. O projeto também garante direitos como férias para menores de 18 anos no mesmo período do recesso escolar. </span></p>\n<p>A matéria, já aprovada na Comissão de Assuntos Sociais (CAS), tem parecer favorável do relator, senador Veneziano Vital do Rêgo (MDB-PB). O projeto foi apresentado pelo ex-deputado e atual ministro da Agricultura e Pecuária, André de Paula (PSD-PE).</p>\n<h3><strong>Cultura</strong></h3>\n<p>Também deve ser votada a proposta que estabelece o Plano Nacional de Cultura para o período 2026-2036. O plano irá orientar as políticas culturais no país durante esse decênio. A proposta foi apresentada pela Presidência da República.</p>\n<p>O <a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/175950\" rel=\"noopener\" target=\"_blank\">PL 5.894/2025</a>, encaminhado pela Presidência da República e já aprovado pela Câmara dos Deputados, define princípios, diretrizes e objetivos para a cultura. Também prevê metas, ações, indicadores, participação social e acompanhamento dos resultados. A proposta exige adesão ao Sistema Nacional de Cultura para que estados e municípios recebam recursos federais destinados à cultura a partir de 2028.  </p>\n<h3><strong>Segurança no trânsito</strong></h3>\n<p>Outro projeto em pauta trata de alteração nas regras de segurança e saúde para motoristas profissionais. O <a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/173897\" rel=\"noopener\" target=\"_blank\">PL 1.134/2025</a> determina que os veículos de uso desses motoristas devem seguir as especificações dos fabricantes, conforme aprovado pela autoridade competente.</p>\n<p>Autor da proposta, o deputado federal Reginaldo Lopes (PT-MG) acredita que o projeto proporcionará mais segurança para motoristas profissionais, já que os veículos deverão seguir especificações homologadas por autoridades competentes. Além disso, a possível padronização dos veículos deve facilitar a fiscalização e o cumprimento das normas de trânsito.</p>\n                <p class=\"text-muted\"><small>Agência Senado (Reprodução autorizada mediante citação da Agência Senado)</small></p>",
+        "fonte": "Senado Federal",
+        "fonte_url": "https://www12.senado.leg.br/hpsenado",
+        "data": "2026-11-23",
+        "delay": ""
+    },
+    {
         "id": "senado_desenvolvimento-regional-cultura-e-cidadania-contam-com-novo",
         "title": "Desenvolvimento regional, cultura e cidadania contam com novos recursos",
         "summary": "Duas leis sancionadas pelo presidente Luiz Inácio Lula da Silva asseguram recursos complementares do Orçamento para ações de desenvolvimento regional, cultura e cidadania. As Leis 15.543 ...",
@@ -11,7 +25,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_damares-defende-protocolo-nacional-para-desaparecimento-de-c",
@@ -25,7 +39,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_comissoes-propoem-r-85-9-bilhoes-em-emendas-ao-orcamento-de-",
@@ -39,7 +53,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_agencias-reguladoras-terao-creditos-extras-de-r-24-4-milhoes",
@@ -53,7 +67,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_leis-garantem-r-714-8-milhoes-para-seguranca-publica-e-siste",
@@ -67,7 +81,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_pesquisa-cientifica-e-datacenter-do-serpro-terao-mais-r-48-1",
@@ -81,7 +95,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_agora-e-lei-mudancas-no-orcamento-incluem-copa-feminina-e-no",
@@ -95,7 +109,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_obras-em-presidios-e-combate-ao-crime-na-amazonia-legal-tera",
@@ -109,7 +123,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_senadores-comemoram-assinatura-de-decreto-que-regulamenta-es",
@@ -123,7 +137,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_na-cmo-debatedores-defendem-recursos-permanentes-para-protec",
@@ -137,7 +151,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_ce-aprova-incentivo-a-creches-em-institutos-federais",
@@ -151,7 +165,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_sessao-solene-marca-os-60-anos-da-embratur",
@@ -165,7 +179,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_vai-a-cdh-politica-de-combate-a-desigualdade-racial-nas-esco",
@@ -179,7 +193,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_reconhecimento-oficial-de-linguas-indigenas-em-estados-e-mun",
@@ -193,7 +207,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-19",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_prazo-maior-para-pedir-reparacao-por-crime-sexual-na-infanci",
@@ -207,7 +221,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_senador-paulo-paim-sera-homenageado-em-sessao-especial",
@@ -221,7 +235,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_aprovadas-regras-de-uso-compartilhado-de-postes-texto-vai-a-",
@@ -235,7 +249,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_senado-aprova-calendario-escolar-flexivel-para-copa-do-mundo",
@@ -249,7 +263,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_vai-a-sancao-campanha-anual-pelo-fim-da-violencia-e-do-racis",
@@ -263,7 +277,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_em-audiencia-chefe-da-pf-e-ministro-negam-interferencia-em-i",
@@ -277,7 +291,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_comissao-define-proximos-passos-para-analise-da-reforma-do-c",
@@ -291,7 +305,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_agro-pede-menos-contingenciamento-de-recursos-no-orcamento-d",
@@ -305,7 +319,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_ctfc-vai-apurar-possiveis-fraudes-na-previdencia-e-no-credit",
@@ -319,7 +333,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_cae-debate-reducao-da-sonegacao-como-saida-para-baixar-aliqu",
@@ -333,7 +347,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_humberto-cobra-decisao-sobre-trecho-da-transnordestina-em-pe",
@@ -347,7 +361,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_moro-critica-projeto-de-ajuste-fiscal-e-aponta-perdas-para-o",
@@ -361,7 +375,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_comissao-do-senado-vai-fiscalizar-atuacao-de-orgaos-regulado",
@@ -375,7 +389,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_chico-rodrigues-defende-aprovacao-de-projeto-do-ajuste-fisca",
@@ -389,7 +403,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_paim-celebra-trajetoria-do-programa-jovem-senador",
@@ -403,7 +417,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_agencia-senado-leva-mencao-honrosa-no-premio-direitos-humano",
@@ -417,7 +431,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-18",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_teresa-leitao-defende-conclusao-da-votacao-de-projeto-do-aju",
@@ -431,7 +445,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_marcelo-castro-defende-fim-da-reeleicao-para-cargos-executiv",
@@ -445,7 +459,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_esperidiao-amin-homenageia-sobrevivente-de-hiroshima-e-nagas",
@@ -459,7 +473,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_medida-que-amplia-credito-a-exportacoes-segue-para-sancao",
@@ -473,7 +487,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_cid-gomes-promete-relatorio-do-novo-desenrola-para-inicio-de",
@@ -487,7 +501,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_agosto-sera-mes-de-combate-a-desigualdade-e-a-pobreza-aprova",
@@ -501,7 +515,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_debate-na-ce-sugere-valorizacao-continua-do-sesc-e-do-senac",
@@ -515,7 +529,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_votacao-de-destaques-ao-ajuste-fiscal-e-remarcada-na-quarta-",
@@ -529,7 +543,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_novembro-roxo-cdh-discute-avancos-e-lacunas-no-cuidado-a-pre",
@@ -543,7 +557,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_senado-aprova-regras-de-qualidade-e-seguranca-para-implantes",
@@ -557,7 +571,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_no-senado-ministro-da-fazenda-defende-novo-tributo-sobre-o-c",
@@ -571,6 +585,6 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-17",
-        "delay": "delay-1"
+        "delay": "delay-2"
     }
 ]
