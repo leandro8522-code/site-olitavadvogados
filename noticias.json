@@ -1,5 +1,19 @@
 [
     {
+        "id": "senado_davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-min",
+        "title": "Davi deseja “pleno êxito” a Luiz Carlos Trabuco no Ministério da Fazenda",
+        "summary": "O presidente do Senado e do Congresso Nacional, Davi Alcolumbre, desejou “pleno êxito” a Luiz Carlos Trabuco, escolhido pelo presidente Luiz Inácio Lula da Silva para ocupar o Ministério ...",
+        "link": "https://www12.senado.leg.br/noticias/materias/2026/11/26/davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-ministerio-da-fazenda",
+        "image": "img/noticias/senado_davi-deseja-201cpleno-exito201d-a-luiz-carlos-trabuco-no-min.jpg",
+        "legenda": "O presidente do Senado, Davi Alcolumbre, durante sessão deliberativa na quarta-feira",
+        "credito": "silviobm",
+        "conteudo": "<p>O presidente do Senado e do Congresso Nacional, Davi Alcolumbre, desejou “pleno êxito” a Luiz Carlos Trabuco, escolhido pelo presidente Luiz Inácio Lula da Silva para ocupar o Ministério da Fazenda a partir de janeiro. A indicação de Trabuco foi confirmada pelo Palácio do Planalto nesta quinta-feira (26).</p>\n<p>Em nota à imprensa, Davi disse receber com otimismo a escolha de Lula. O presidente do Senado destacou que a capacidade técnica, a experiência de gestão e a habilidade de diálogo do futuro ministro podem contribuir para a condução da agenda econômica.</p>\n<p>Leia a íntegra da nota:</p>\n<p><em><strong>NOTA À IMPRENSA</strong></em></p>\n<p><em>Recebo com muito otimismo a escolha de Luiz Carlos Trabuco para o Ministério da Fazenda. Conheço Trabuco há muitos anos e tenho profunda admiração por seu trabalho e pela trajetória que construiu no setor financeiro. Sua capacidade técnica, sua experiência de gestão e sua habilidade de diálogo serão valiosas na condução da agenda econômica do país.</em></p>\n<p><em>Reafirmo a disposição do Congresso Nacional de manter uma interlocução permanente com o Ministério da Fazenda e de cooperar na construção de consensos em torno das pautas prioritárias para o Brasil. O diálogo entre o Executivo e o Legislativo é fundamental para avançarmos em medidas que conciliem responsabilidade fiscal, crescimento econômico e geração de empregos.</em></p>\n<p><em>Desejo a Luiz Carlos Trabuco pleno êxito nessa missão.</em></p>\n<p><em>Davi Alcolumbre</em></p>\n<p><em>Presidente do Senado Federal e do Congresso Nacional</em></p>\n                <p class=\"text-muted\"><small>Agência Senado (Reprodução autorizada mediante citação da Agência Senado)</small></p>",
+        "fonte": "Senado Federal",
+        "fonte_url": "https://www12.senado.leg.br/hpsenado",
+        "data": "2026-11-26",
+        "delay": ""
+    },
+    {
         "id": "senado_homenagem-a-academia-william-shakespeare-destaca-importancia",
         "title": "Homenagem à Academia William Shakespeare destaca importância da cultura",
         "summary": "O Senado homenageou em sessão especial, nesta quinta-feira (26), a Academia William Shakespeare e o legado do dramaturgo inglês, cuja obra continua a influenciar a literatura, o teatro e ...",
@@ -11,7 +25,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_relatorio-do-orcamento-de-2027-mantem-aumento-de-recursos-a-",
@@ -25,7 +39,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_davi-recebe-prefeitos-e-propoe-debate-sobre-financiamento-do",
@@ -39,7 +53,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_senado-apresenta-sistema-para-acoes-de-acessibilidade-equida",
@@ -53,7 +67,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_mais-tempo-na-escola-nao-basta-sem-qualidade-e-verba-diz-ava",
@@ -67,7 +81,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_ifi-entrega-estudo-sobre-aliquota-da-cbs-para-eduardo-braga",
@@ -81,7 +95,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_conselho-de-gestao-fiscal-deve-melhorar-eficiencia-dos-gasto",
@@ -95,7 +109,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-26",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_relatorio-destaca-importancia-da-educacao-superior-catolica-",
@@ -109,7 +123,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_cct-aprova-39-concessoes-e-renovacoes-para-emissoras-de-radi",
@@ -123,7 +137,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_randolfe-faz-balanco-de-gestao-no-conselho-editorial-do-sena",
@@ -137,7 +151,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_cra-aprova-projeto-que-diferencia-aquicultura-da-pesca-extra",
@@ -151,7 +165,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_cra-aprova-ampliacao-do-prazo-de-protecao-de-novas-variedade",
@@ -165,7 +179,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_municipios-que-comprarem-da-agricultura-familiar-podem-ter-b",
@@ -179,7 +193,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_plenario-aprova-calendario-especial-para-pec-do-fundo-consti",
@@ -193,7 +207,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_relatorio-eleva-em-r-37-1-bilhoes-a-previsao-de-receita-para",
@@ -207,7 +221,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_senado-aprova-estimulo-a-inclusao-digital-de-idosos",
@@ -221,7 +235,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_bancada-feminina-cobra-mais-espaco-nas-decisoes-do-senado",
@@ -235,7 +249,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_cdh-aponta-falhas-na-execucao-de-plano-de-combate-a-violenci",
@@ -249,7 +263,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_motorista-que-causar-acidente-tera-de-fazer-teste-de-embriag",
@@ -263,7 +277,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_vai-a-plenario-inclusao-de-fundo-constitucional-do-df-na-con",
@@ -277,7 +291,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_frente-parlamentar-mista-de-defesa-seguranca-e-soberania-e-a",
@@ -291,7 +305,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_cre-recomenda-criacao-de-agencia-nacional-para-prevenir-ataq",
@@ -305,7 +319,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_grupo-brasil-bulgaria-podera-promover-visitas-e-debates-entr",
@@ -319,7 +333,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_medidas-protetivas-devem-acompanhar-mulheres-no-mercosul-apr",
@@ -333,7 +347,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_prevencao-de-erros-de-medicacao-em-hospitais-passa-em-primei",
@@ -347,7 +361,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_ampliacao-do-acesso-a-mamografia-pelo-sus-vai-a-plenario",
@@ -361,7 +375,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-25",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_senado-aprova-plano-nacional-de-cultura-para-os-proximos-10-",
@@ -375,7 +389,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_participantes-de-oficina-legislativa-serao-premiados-em-sess",
@@ -389,7 +403,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_senado-vai-analisar-uso-mais-amplo-da-linguagem-braile-no-co",
@@ -403,7 +417,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_aprovado-projeto-que-tipifica-crime-de-trafico-de-animais-si",
@@ -417,7 +431,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_aprovados-pelo-senado-4-cargos-de-desembargador-no-trt-de-go",
@@ -431,7 +445,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_sargento-reginauro-cobra-apuracao-de-assassinato-de-ex-polic",
@@ -445,7 +459,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_cadastro-de-condenados-por-violencia-contra-mulher-pode-ser-",
@@ -459,7 +473,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_confucio-moura-propoe-ajuste-no-orcamento-de-2027-para-ampli",
@@ -473,7 +487,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_escola-de-qualidade-para-os-quilombolas-e-reparacao-historic",
@@ -487,7 +501,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_davi-autoriza-atuacao-da-advocacia-do-senado-em-prol-da-imun",
@@ -501,7 +515,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_lei-do-ajuste-fiscal-e-publicada-e-ja-esta-valendo",
@@ -515,7 +529,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_humberto-costa-celebra-aprovacao-do-projeto-de-ajuste-fiscal",
@@ -529,7 +543,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_reparacao-para-populacao-negra-precisa-ser-politica-de-estad",
@@ -543,7 +557,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_paim-defende-votacao-rapida-do-estatuto-dos-caes-e-gatos",
@@ -557,7 +571,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_chico-rodrigues-comemora-liberacao-de-r-115-milhoes-para-ror",
@@ -571,7 +585,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_normas-para-descarte-de-armas-sao-aprovadas-em-primeiro-turn",
@@ -585,7 +599,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_csp-aprova-relatorio-sobre-programa-de-protecao-a-testemunha",
@@ -599,7 +613,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_cma-aprova-mudanca-na-cobranca-da-taxa-de-controle-e-fiscali",
@@ -613,7 +627,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_cma-aprova-repasse-de-multas-ambientais-a-municipios-projeto",
@@ -627,7 +641,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_vai-a-plenario-estatuto-dos-caes-e-gatos",
@@ -641,7 +655,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": ""
+        "delay": "delay-1"
     },
     {
         "id": "senado_cdr-elege-jorge-seif-como-vice-presidente",
@@ -655,7 +669,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-1"
+        "delay": "delay-2"
     },
     {
         "id": "senado_tipificacao-de-crime-de-trafico-de-animais-silvestres-vai-a-",
@@ -669,7 +683,7 @@
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
-        "delay": "delay-2"
+        "delay": ""
     },
     {
         "id": "senado_semana-nacional-de-conscientizacao-sobre-residuos-eletroelet",
@@ -680,20 +694,6 @@
         "legenda": "O projeto que cria A semana foi aprovado pela Comissão de Meio Ambiente do Senado (CMA)",
         "credito": "Geraldo Magela/Agência Senado",
         "conteudo": "<p>A Comissão de Meio Ambiente do Senado (CMA) aprovou nesta terça-feira (24) o projeto de lei que cria a Semana Nacional de Conscientização sobre Resíduos Eletroeletrônicos (<a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/165809\" rel=\"noopener\" target=\"_blank\">PL 2.238/2021</a>).</p>\n<p>Como o texto foi aprovado em <a href=\"https://www.congressonacional.leg.br/legislacao-e-publicacoes/glossario-legislativo/-/legislativo/termo/decisao_terminativa\" rel=\"noopener\" target=\"_blank\">decisão terminativa</a>, a matéria segue diretamente para a sanção da Presidência da República — a não ser que seja apresentado recurso para que haja votação no Plenário do Senado.</p>\n<p>De acordo com a proposta, a semana de conscientização ocorrerá anualmente, logo após a Semana de Meio Ambiente (que é comemorada no início de junho). O autor do projeto é o deputado federal Carlos Henrique Gaguim (União-TO).</p>\n<p>Na CMA, a iniciativa recebeu <a href=\"https://legis.senado.gov.br/sdleg-getter/documento/download/32322b99-5d5a-4a46-8d04-5cc4778b1c76?ts=1795524756644&amp;rendition_principal=S&amp;disposition=inline\" rel=\"noopener\" target=\"_blank\">parecer favorável</a> do senador Wellington Fagundes (PL-MT), relator da matéria. O documento foi lido durante a reunião desta terça-feira pelo senador Zequinha Marinho (Podemos-PA).</p>\n<p>O parecer ressalta que, na semana de conscientização, devem ser realizados debates e atividades educacionais sobre redução do uso de produtos eletroeletrônicos, descarte adequado, coleta seletiva e formas de reaproveitamento, reutilização e reciclagem.</p>\n<p>Wellington afirma em seu parecer que a iniciativa contribuirá para informar a população sobre os impactos ambientais e à saúde decorrentes do manejo incorreto de eletroeletrônicos, além de estimular uma cultura de consumo mais responsável.</p>\n<p>Ele também destaca que o volume de aparelhos eletrônicos descartados inadequadamente vem crescendo. “A tecnologia avança rapidamente, tornando obsoletos diversos produtos em curto prazo. A conscientização sobre os impactos do descarte é essencial para a mudança de hábitos e práticas”, argumenta.</p>\n<p>O relator acrescenta que a proposta está alinhada à <a href=\"https://normas.leg.br/?urn=urn:lex:br:federal:lei:2010-08-02;12305\" rel=\"noopener\" target=\"_blank\">Política Nacional de Resíduos Sólidos</a> aos compromissos internacionais assumidos pelo Brasil (como a Agenda 2030 para o Desenvolvimento Sustentável).</p>\n<p>Ele apresentou emenda ao projeto para determinar que cabe ao Poder Público fazer ampla divulgação dessa semana de conscientização.</p>\n<h3><strong>Audiência pública</strong></h3>\n<p>A CMA também aprovou, durante a reunião desta terça-feira, um requerimento de audiência pública apresentado por Zequinha Marinho: o <a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/175622\" rel=\"noopener\" target=\"_blank\">REQ 12/2026 – CMA</a>.</p>\n<p>O objetivo da audiência é discutir o <a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/141252\" rel=\"noopener\" target=\"_blank\">PL 1.053/2020</a>, projeto de lei que institui a cobrança da Contribuição de Intervenção no Domínio Econômico incidente sobre a importação e comercialização de agrotóxicos e afins, denominada Cide-Agrotóxico.</p>\n                <p class=\"text-muted\"><small>Agência Senado (Reprodução autorizada mediante citação da Agência Senado)</small></p>",
-        "fonte": "Senado Federal",
-        "fonte_url": "https://www12.senado.leg.br/hpsenado",
-        "data": "2026-11-24",
-        "delay": ""
-    },
-    {
-        "id": "senado_projeto-de-ajuste-fiscal-segue-para-a-sancao-presidencial",
-        "title": "Projeto de ajuste fiscal segue para a sanção presidencial",
-        "summary": "A Câmara dos Deputados aprovou na segunda-feira (23) o projeto de lei do ajuste fiscal, que altera regras fiscais para permitir que o Executivo limite a execução de despesas a fim de alca...",
-        "link": "https://www12.senado.leg.br/noticias/materias/2026/11/24/projeto-de-ajuste-fiscal-segue-para-a-sancao-presidencial",
-        "image": "img/noticias/senado_projeto-de-ajuste-fiscal-segue-para-a-sancao-presidencial.jpg",
-        "legenda": "O Plenário da Câmara durante a votação do projeto. Não houve alterações em relação ao texto que havia sido aprovado no Senado",
-        "credito": "Bruno Spada / Câmara dos Deputados",
-        "conteudo": "<p>A Câmara dos Deputados aprovou na segunda-feira (23) o projeto de lei do ajuste fiscal, que altera regras fiscais para permitir que o Executivo limite a execução de despesas a fim de alcançar as metas de superávit primário a partir de 2027.</p>\n<p>O projeto (<a href=\"https://www25.senado.leg.br/web/atividade/materias/-/materia/176328\" rel=\"noopener\" target=\"_blank\">PLP 299/2026</a>) recebeu 353 votos favoráveis e 128 contrários. Não houve alterações em relação <a href=\"https://www12.senado.leg.br/noticias/materias/2026/11/18/senado-completa-votacao-e-ajuste-fiscal-segue-para-a-camara\" rel=\"noopener\" target=\"_blank\">ao texto que passou no Senado</a>. Agora a matéria segue para a sanção da Presidência da República.</p>\n<p>A meta de 2027 é de um superávit de R$ 18,7 bilhões após deduções da ordem de R$ 64,7 bilhões permitidas pelo arcabouço fiscal, que reduzem a meta de 0,5% do PIB (R$ 83,4 bilhões em valores nominais).</p>\n<p>Em comparação com 2026, o governo terá de conseguir economizar cerca de R$ 70,6 bilhões para chegar aos R$ 18,6 bilhões positivos, pois fechará o ano com déficit de menos R$ 52 bilhões.</p>\n<p>A partir do momento em que a nova regra virar lei, se o resultado primário do governo no ano anterior for menor que 0,5% do PIB, o Executivo apresentará à Comissão Mista de Orçamento (CMO) as causas do resultado e as medidas previstas para sua melhora.</p>\n<p>Segundo o projeto, de 2027 em diante, se o relatório bimestral de receitas e despesas indicar necessidade para atingir a meta fiscal, o governo poderá travar mais despesas do que exige o mecanismo atual da Lei de Responsabilidade Fiscal (LRF).</p>\n<p>Ao precisar fazer isso para manter o foco na meta fiscal prometida, o crescimento real da despesa em relação ao ano anterior não poderá passar de 2%, contra os atuais 2,5% permitidos pelo arcabouço fiscal.</p>\n<p>No entanto, o contingenciamento adicional que implicará gasto menor atingirá somente as despesas do Poder Executivo, exceto:</p>\n<ul>\n<li>obrigações constitucionais;</li>\n<li>despesas obrigatórias (não sujeitas a disponibilidade orçamentária);</li>\n<li>despesas do serviço da dívida;</li>\n<li>despesas de inovação e desenvolvimento científico e tecnológico custeadas pelo Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT);</li>\n<li>as ressalvadas pela Lei de Diretrizes Orçamentárias (LDO).</li>\n</ul>\n<p>A redução ou o cancelamento de dotações orçamentárias feitos dessa forma deverão ocorrer por meio da lei orçamentária, que indicará os valores e quais programações serão atingidas.</p>\n<h3><strong>Excedente</strong></h3>\n<p>Quando o governo precisar fazer esse contingenciamento adicional e o total economizado superar o necessário para manter as despesas com crescimento real de 2%, o excedente deverá ser deduzido do limite de despesas do Poder Executivo definido na LDO para o ano em questão.</p>\n<p>O efeito disso é que diminui a base de cálculo sobre a qual será aplicado o percentual de crescimento de despesas para os anos seguintes.</p>\n<p>Além disso, o dinheiro economizado assim não poderá ser utilizado para abrir créditos adicionais no mesmo exercício financeiro.</p>\n<h3><strong>Investimentos</strong></h3>\n<p>Se, em determinado ano, tiverem sido adotadas as medidas extras de trava de despesas e o resultado fiscal tiver sido maior que a meta, descontadas as deduções legais, o dinheiro que sobrou poderá ser utilizado pelo Executivo para bancar investimentos estruturantes no ano seguinte, levando-se em conta aqueles definidos pelas bancadas estaduais quando da votação do orçamento.</p>\n<p>Entretanto, o crédito adicional aberto será, no máximo, igual ao valor que o governo conseguir economizar a mais com as medidas adicionais de contingenciamento. O crédito também não entrará no limite de despesas do ano em que for utilizado, embora conte para a meta de resultado fiscal.</p>\n<h3><strong>Bolsas de estudo</strong></h3>\n<p>O PLP 299/2026 permite ainda que a lei orçamentária anual destine, a cada exercício, parcela dos recursos não reembolsáveis do Fundo Nacional de Desenvolvimento Científico e Tecnológico (FNDCT) para a concessão e o pagamento de bolsas de estudo e de pesquisa no ensino superior e demais auxílios a ela vinculados ou para formação, capacitação e fixação de recursos humanos para o desenvolvimento científico.</p>\n<p>Na prática, se o orçamento da Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (Capes) ou do Conselho Nacional de Desenvolvimento Científico e Tecnológico (CNPq) sofrer cortes, o FNDCT poderá custear o pagamento das bolsas.</p>\n<h3><strong>Óleo diesel</strong></h3>\n<p>Excepcionalmente para o ano de 2026, o projeto autoriza o governo a deduzir da meta fiscal até R$ 10,5 bilhões em despesas com subvenções econômicas pagas aos produtores e importadores de óleo diesel para tentar conter a alta do combustível no mercado interno devido à guerra dos Estados Unidos contra o Irã.</p>\n<p>O argumento é que os gastos extraordinários com subsídio aos combustíveis foram bancados com receita também extraordinária advinda do aumento dos preços do petróleo pelo fator guerra.</p>\n<h3><strong>Contenção de despesas</strong></h3>\n<p>O projeto torna obrigatórias regras recentes da <a href=\"https://normas.leg.br/?urn=urn:lex:br:federal:lei.complementar:2026-08-27;235\" rel=\"noopener\" target=\"_blank\">Lei Complementar 235, de 2026</a>, para contenção de despesas, independentemente de o relatório de receitas e despesas projetar déficit.</p>\n<p>Assim, em vez de essas medidas serem adotadas no orçamento do ano seguinte (2027 em diante) e até que seja atingido superávit, como é hoje, elas terão de ser adotadas em qualquer situação, mas até 2030.</p>\n<p>Uma das medidas é a proibição de crescimento anual de despesas primárias vinculadas por lei a fontes de receitas em percentual maior que o crescimento do limite de despesas do poder Executivo. Isso atingiria, por exemplo, vários fundos cuja receita pode ser gasta somente com finalidades específicas.</p>\n<p>Outra proibição já prevista na lei agora modificada é a de contar, na receita corrente líquida (RCL) da União, o dinheiro obtido pela venda de petróleo a que o governo federal tem direito nos contratos de exploração de petróleo sob o regime de partilha. A RCL é usada, por exemplo, como base de cálculo para o piso constitucional do governo federal para a saúde.</p>\n<p>O Executivo argumenta que receitas com a comercialização desse petróleo são receitas patrimoniais ou extraordinárias com destinação específica (como o Fundo Social), e não receitas tributárias recorrentes que deveriam sustentar despesas obrigatórias permanentes.</p>\n<p>O Executivo argumenta que receitas com a comercialização desse petróleo são receitas patrimoniais ou extraordinárias com destinação específica (como o Fundo Social), e não receitas tributárias recorrentes que deveriam sustentar despesas obrigatórias permanentes.</p>\n<p>Já um dos argumentos dos críticos da restrição é que o entendimento consolidado do Supremo Tribunal Federal (STF) proíbe o legislador de redefinir conceitos contábeis para reduzir o alcance de uma garantia prevista na Constituição.</p>\n<p>Outra novidade é que, a partir de 2028, essas duas regras provocarão bloqueio equivalente no limite geral de despesas do Executivo, resultando em redução dos limites dos anos seguintes.</p>\n<p>O projeto aprovado também tira da RCL a receita obtida com o imposto de exportação de petróleo (aumentado devido à alta do preço da commodity provocada pela guerra).</p>\n<p>Dispositivo introduzido durante a tramitação no Senado excluiu o Fundo Constitucional do Distrito Federal dessa norma, permitindo o cálculo da receita corrente líquida sem reduções. A intenção do governo inicialmente era incluir o fundo na nova regra.</p>\n<h3><strong>Compensação de tributos</strong></h3>\n<p>Pelo lado da receita, o projeto pretende ampliar a arrecadação efetiva do governo a curto prazo, diminuindo o quanto as empresas podem utilizar de créditos tributários para compensar impostos a pagar. Esses créditos decorrem, principalmente, de causas ganhas na Justiça (como a de exclusão do ICMS da base de cálculo do PIS/Cofins).</p>\n<p>O total de créditos compensáveis poderá ser reduzido por decreto até montante igual ao excedente de economia obtido pelas medidas de contingenciamento adicionais somado ao obtido pelas medidas normais de travamento do orçamento.</p>\n<p>Os percentuais de redução da compensação poderão ser diferenciados em função do valor total ou do tipo de crédito utilizado na compensação.</p>\n<p>Segundo o relator do projeto na Câmara, o deputado federal Mauro Benevides Filho (União-CE), isso ajudará a impedir a chamada compensação cruzada — quando créditos de PIS e Cofins são utilizados, por exemplo, para compensar o Imposto sobre a Renda da Pessoa Jurídica (IRPJ).</p>\n<p>Entretanto, devido às regras de transição da reforma tributária, os créditos do PIS e da Cofins, que deixarão de existir a partir do próximo ano, poderão ser compensados no pagamento da Contribuição sobre Bens e Serviços (CBS), o tributo substituto. Isso deverá evitar o represamento de créditos de montante menor, não relacionados com causas perdidas pela União na Justiça, por exemplo. A estimativa de economia com o atraso nas compensações é de R$ 12,8 bilhões a R$ 18,3 bilhões.</p>\n<h3><strong>Incentivos tributários</strong></h3>\n<p>Também pelo lado da receita, o governo espera arrecadação a mais (cerca de R$ 15 bilhões) com a diminuição dos incentivos e deduções tributárias em 10 pontos percentuais.</p>\n<p>Desde o ano 2026, a diminuição inicial de 10% já vale e agora ela passará a ser de 20%. Portanto, empresas com benefícios previstos em várias leis terão de recolher mais tributos porque contarão somente com 80% do benefício.</p>\n<p>A redução gradual está prevista na Emenda Constitucional 109/2021, que prevê período de oito anos para o total de incentivos e renúncias ficar em 2% do PIB.</p>\n<p>Embora a renúncia total antes das reduções fosse calculada em torno de R$ 600 bilhões ao ano, várias exceções criadas a partir da emenda constitucional reduziram o total passível de corte.</p>\n<p>Uma nova exceção foi introduzida pelo projeto e mantém os incentivos, isenções ou benefícios tributários na compra de automóvel por pessoas com deficiência ou com transtorno do espectro autista.</p>\n<h3><strong>Supersalários</strong></h3>\n<p>Em relação aos supersalários, o PLP 299/2026 prevê que o Congresso Nacional vote, em até 60 dias da publicação da futura lei, projeto para definir o que pode ser considerado indenização a ser paga fora do teto constitucional do funcionalismo.</p>\n<p>Após virar lei, a LDO deverá conter os valores reduzidos dos gastos com pessoal por causa da nova regra. O total que vier a ser economizado com a folha do Executivo será destinado a investimentos ou ao financiamento de atividades finalísticas do Sistema Único de Segurança Pública (Susp) e do Sistema Nacional de Atendimento Socioeducativo.</p>\n<p>Após virar lei, a LDO deverá conter os valores reduzidos dos gastos com pessoal por causa da nova regra. O total que vier a ser economizado com a folha do Executivo será destinado a investimentos ou ao financiamento de atividades finalísticas do Sistema Único de Segurança Pública (Susp) e do Sistema Nacional de Atendimento Socioeducativo (Sinase).</p>\n<p>Já a economia obtida no âmbito do Judiciário e do Legislativo poderá ser utilizada com despesas de pessoal nos próprios poderes ou órgãos autônomos (Ministério Público e Defensoria Pública), sendo proibida a redução de suas dotações orçamentárias e dos limites individualizados de despesas primárias. </p>\n<p><em></em></p>\n<p><em>Com informações da Agência Câmara </em></p>\n                <p class=\"text-muted\"><small>Agência Senado (Reprodução autorizada mediante citação da Agência Senado)</small></p>",
         "fonte": "Senado Federal",
         "fonte_url": "https://www12.senado.leg.br/hpsenado",
         "data": "2026-11-24",
